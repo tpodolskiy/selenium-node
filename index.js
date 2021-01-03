@@ -2,7 +2,7 @@ const selenium = require("selenium-webdriver"); // init the selenium
 const By = selenium.By; // importing By. module
 
 // importing home.js for POM
-const HomePage = require('./pages/home');
+const HomePage = require('./pages/home').default;
 
 
 

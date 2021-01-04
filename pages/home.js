@@ -1,4 +1,4 @@
-const By = require("selenium-webdriver").By;
+import { By } from "selenium-webdriver";
 
 class HomePage {
     constructor(driver) {
@@ -37,4 +37,4 @@ class HomePage {
 
 }
 
-module.exports = HomePage;
+export default HomePage;

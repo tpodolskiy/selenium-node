@@ -37,4 +37,4 @@ class HomePage {
 
 }
 
-exports = HomePage;
+module.exports = HomePage;

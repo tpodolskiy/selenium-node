@@ -1,3 +1,4 @@
+import { Module } from "module";
 import { By } from "selenium-webdriver";
 
 class HomePage {
@@ -37,4 +38,4 @@ class HomePage {
 
 }
 
-export default HomePage;
+module.exports = HomePage;
